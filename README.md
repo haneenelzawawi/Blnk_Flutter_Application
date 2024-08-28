@@ -22,8 +22,8 @@ This Flutter application collects basic user information and scans the front and
 ### Installation
 
 1. Clone the repository
-   ``` git clone https://github.com/yourusername/your-repository.git ```
-   ``` cd your-repository ```
+   ``` git clone https://github.com/haneenelzawawi/Blnk_Flutter_Application.git ```
+   ``` cd Blnk_Flutter_Application ```
 
 2. Install dependencies
    ``` flutter pub get ```
