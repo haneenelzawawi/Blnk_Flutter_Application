@@ -986,7 +986,9 @@ class RegisterPage extends StatelessWidget {
               MaterialPageRoute(builder: (context) => FrontImagePage()),
             );
           },
-          child: Row(
+          child: Align(
+  alignment: Alignment.centerLeft,
+  child:Row(
             crossAxisAlignment: CrossAxisAlignment.start,
             mainAxisSize: MainAxisSize.min, 
             children: [
@@ -1002,13 +1004,13 @@ class RegisterPage extends StatelessWidget {
               ),
             ],
           ),
+            ),
           style: OutlinedButton.styleFrom(
             backgroundColor: const Color.fromARGB(85, 96, 125, 139),
             shape: RoundedRectangleBorder(
               borderRadius: BorderRadius.zero, 
             ),
-            padding: EdgeInsets.symmetric(vertical: 16.0, horizontal: 24.0), 
-            side: BorderSide(color: Colors.blueGrey!),
+            padding: EdgeInsets.symmetric(vertical: 16.0, horizontal: 24.0),
           ),
         ),
       ),
@@ -1025,7 +1027,9 @@ class RegisterPage extends StatelessWidget {
               MaterialPageRoute(builder: (context) => FrontImagePage()),
             );
           },
-          child: Row(
+          child: Align(
+  alignment: Alignment.centerLeft,
+  child:Row(
             mainAxisSize: MainAxisSize.min, 
             children: [
               Icon(Icons.image, color: Colors.black),
@@ -1040,13 +1044,13 @@ class RegisterPage extends StatelessWidget {
               ),
             ],
           ),
+            ),
           style: OutlinedButton.styleFrom(
             backgroundColor: const Color.fromARGB(85, 96, 125, 139),
             shape: RoundedRectangleBorder(
               borderRadius: BorderRadius.zero, 
             ),
-            padding: EdgeInsets.symmetric(vertical: 16.0, horizontal: 24.0), 
-            side: BorderSide(color: Colors.blueGrey!),
+            padding: EdgeInsets.symmetric(vertical: 16.0, horizontal: 24.0),
           ),
         ),
         ),
