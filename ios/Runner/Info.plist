@@ -21,6 +21,15 @@
 	<key>CFBundleSignature</key>
 	<string>????</string>
 	<key>CFBundleVersion</key>
+<key>CFBundleURLTypes</key>
+<array>
+  <dict>
+    <key>CFBundleURLSchemes</key>
+    <array>
+      <string>com.blnk.myapp</string> <!-- Your custom URL scheme -->
+    </array>
+  </dict>
+</array>
 	<key>NSCameraUsageDescription</key>
 <string>We need access to the camera to scan your ID.</string>
 <key>NSPhotoLibraryUsageDescription</key>
